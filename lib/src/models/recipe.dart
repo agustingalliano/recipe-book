@@ -4,7 +4,6 @@ class Recipe {
   final String name;
   final String images;
   final String description;
-  //final String totalTime;
 
   Recipe(this.id, this.name, this.images, this.description);
 

@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:recipe_book/src/api/recipe.api.dart';
-import 'package:recipe_book/src/model/recipe.dart';
+import 'package:recipe_book/src/models/recipe.dart';
 
 class EditRecipePage extends StatefulWidget {
   BuildContext context;
@@ -163,7 +163,7 @@ class EditRecipeState extends State<EditRecipePage> {
                       onPressed: () {
                         Navigator.pop(context);
                         Navigator.pop(context);
-                        Navigator.pushReplacementNamed(context, "/");
+                        Navigator.pushReplacementNamed(context, "/home");
                       },
                       child: const Text("OK"))
                 ],

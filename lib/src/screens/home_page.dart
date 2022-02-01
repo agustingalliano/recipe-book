@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:recipe_book/src/components/recipe_widget.dart';
 import 'package:recipe_book/src/api/recipe.api.dart';
-import 'package:recipe_book/src/model/recipe.dart';
+import 'package:recipe_book/src/models/recipe.dart';
 
 class HomePage extends StatefulWidget {
 
